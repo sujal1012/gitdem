@@ -1,0 +1,10 @@
+name :Git hub examle
+on:
+push:
+   branches [main]
+  jobs:
+    demo:
+runs-on: ubuntu-latest
+steps:
+- name: checkout repository
+run: echo "test.java"
